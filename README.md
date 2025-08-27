@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sentiment Analysis Backend
 
 Node.js + Express + MySQL backend with JWT auth and product review sentiment analysis using OpenAI or Gemini.
@@ -46,3 +47,7 @@ The server starts at http://localhost:4000
 ## Notes
 - The product review fetcher is mocked to avoid scraping complexity. Replace with real scraping/API later.
 - If no LLM key is set, provider `mock` generates deterministic sentiments for local dev.
+=======
+# ecommerce-sentiment-analysis
+A SaaS-style backend that analyzes e-commerce product reviews using sentiment analysis, built with Node.js, TypeScript, and MySQL.
+>>>>>>> cb304b909380445c01c7e57d13f5cc9af2284baf
