@@ -1,0 +1,10 @@
+{
+  "testEnvironment": "node",
+  "roots": ["<rootDir>/tests"],
+  "testMatch": ["**/*.test.js"],
+  "transform": {},
+  "moduleFileExtensions": ["js", "json"],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["dist/**/*.js", "!dist/**/index.js"],
+  "coverageDirectory": "coverage"
+}

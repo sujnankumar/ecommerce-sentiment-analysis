@@ -1,0 +1,324 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install Node dependencies",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"problemMatcher": [
+				"$npm-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run tests",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run tests",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run tests",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run tests",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Install sqlite3",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"--save-dev",
+				"sqlite3"
+			],
+			"problemMatcher": [
+				"$npm-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run tests",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run lint",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"lint"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Install TS deps",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"-D",
+				"typescript",
+				"ts-node",
+				"ts-node-dev",
+				"@types/node",
+				"@types/express",
+				"@types/cors",
+				"@types/jsonwebtoken",
+				"@types/bcryptjs",
+				"@types/jest",
+				"@types/supertest"
+			],
+			"problemMatcher": [
+				"$npm-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Install ts-jest",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"-D",
+				"ts-jest",
+				"jest"
+			],
+			"problemMatcher": [
+				"$npm-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Install TypeScript toolchain and types",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"-D",
+				"typescript",
+				"ts-node",
+				"ts-node-dev",
+				"ts-jest",
+				"@types/node",
+				"@types/express",
+				"@types/jest",
+				"@types/jsonwebtoken",
+				"@types/cors",
+				"@types/supertest",
+				"@types/bcryptjs"
+			],
+			"problemMatcher": [
+				"$npm-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "TypeScript build",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run tests (ts-jest)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Build and run tests (dist)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run tests with ESM",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run tests after fixing dist paths",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Re-run tests (JS only)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run tests after dynamic import",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Rebuild and run tests (ESM)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Clean build and run tests ESM",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Run Jest after TS test emptied",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Rebuild and run tests after model/controller fixes",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		},
+		{
+			"label": "Rebuild after neutralizing duplicates",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Rebuild and run tests after cleanup",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "test"
+		}
+	]
+}
